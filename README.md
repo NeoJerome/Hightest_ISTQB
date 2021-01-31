@@ -7,10 +7,10 @@ Objectif du test : Créer un test automatisé permettant de contrôler que le ma
 
 ## Cas de test à automatise
 
->Etape 1 - Cliquer sur "Toolbox"
->Etape 2 - Cliquer sur le lien vers le quiz ISTQB Fondation en français
->Etape 3 - Cliquer sur les bonnes réponses du test
->Etape 4 - Cliquer sur le bouton "Terminer!"
+> - Etape 1 - Cliquer sur "Toolbox"
+> - Etape 2 - Cliquer sur le lien vers le quiz ISTQB Fondation en français
+> - Etape 3 - Cliquer sur les bonnes réponses du test
+> - Etape 4 - Cliquer sur le bouton "Terminer!"
 >Etape 6 - Entrer une adresse e-mail yopmail.com (ne pas cocher la case pour la newsletter)
 >Etape 7 - Cliquer sur "OK"
 >Etape 8 - Ouvrir la page "www.yopmail.com"
