@@ -12,31 +12,39 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-
+/* Classe IstqbPage :
+ * Navigateur cible : Google Chrome.
+ * Cette classe représente la page du test ISTQB Foundation en français.
+ * Adresse de la page : "https://www.hightest.nc/ressources/test-istqb.php".
+ */
 
 public class IstqbPage {
     private WebDriver driver;
-    private String testLinkHref = "https://www.hightest.nc/ressources/test-istqb.php";
     private String path = "./src/test/quizdata/cpc.json";
 
+    //Constructeur de la classe IstqbPage
     public IstqbPage(WebDriver driver){
         this.driver = driver;
     }
 
-
+    /* Méthode clickRadio() :
+     * Cette méthode permet de récupérer les données d'un fichier au format json qui correspondent
+     * aux réponses (corrects) du QCM ISTQB Foundation en français.
+     * Ce fichier (cpc.json) est situé dans le dossier "quizdata".
+     * Une fois les réponses récupérées, des clics sont effectués sur les éléments "radio" correspondant puis le
+     * formulaire est validé en cliquant sur le bouton "Terminé !".
+     * Retourne une page objet "AnswPage".
+     */
     public AnswPage clickRadio() {
-        Set<String> openWindows = driver.getWindowHandles();
-        Iterator<String> nbrOpenWin = openWindows.iterator();
         JSONParser parser = new JSONParser();
         WebDriverWait wait = new WebDriverWait(driver,5);
         int sizeQuiz = 20;
         int idAnsw =0;
         int[] goodAnsw = new int[sizeQuiz];
+
         try {
             JSONArray jsonArray = (JSONArray) parser.parse(new FileReader(path));
             for(int i=0;i<jsonArray.size();i++){
@@ -50,14 +58,6 @@ public class IstqbPage {
             e.printStackTrace();
         } catch (ParseException e) {
             e.printStackTrace();
-        }
-
-        while(nbrOpenWin.hasNext()) {
-            String openWindow = nbrOpenWin.next();
-            driver.switchTo().window(openWindow);
-            if(driver.getCurrentUrl().contains(testLinkHref)){
-                break;
-            }
         }
         driver.manage().window().fullscreen();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

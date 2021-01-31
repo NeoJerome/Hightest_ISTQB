@@ -5,7 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 /* Classe HomePage :
  * Navigateur cible : Google Chrome.
- * Cette classe représente la page d'accueil "https://hightest.nc/"
+ * Cette classe représente la page d'accueil du site de Hightest.
+ * Adresse de la page : "https://hightest.nc/".
  */
 public class HomePage {
     private WebDriver driver;
@@ -17,8 +18,8 @@ public class HomePage {
     }
 
     /* Méthode ToolboxPage :
-     * Cette méthode permet de retourner une page objet "ToolboxPage".
-     * Cette page correspond à la page "boite-outils" du site de Hightest
+     * Cette méthode permet de cliquer sur le lien "TOOLBOX".
+     * Retourne une page objet "ToolboxPage".
      */
     public ToolboxPage clickToolboxLink(){
         driver.findElement(toolboxLink).click();
