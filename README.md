@@ -27,6 +27,10 @@ Objectif : le test "Cent pout Cent" consiste à vérifier que le mail reçu, de 
 > - Etape 9 - Vérifier que le mail reçu de la part de "contact@hightest.nc" indique bien la phrase attendue : "Vous avez bien répondu à 20 question(s) sur 20, soit >100 % de réussite. Félicitations, vous avez obtenu le score maximal !".
 
 ## Structure du projet
-- Dossier 
+
+- Dossier "resources" : contient l'exécutable du ChromeDriver Version 87.0.4280.88
+- Dossier "src" : contient les dossiers "main" et "test"
+- Dossier "main" : contient le dossier "java" contenant le package "pages" lié aux classes de Pages
+- Dossier "test" : contient le dossier "java" contenant le package "com.projet.istqb" lié aux classes de Tests ainsi que le dossier "quizdata" contenant le fichier de réponses (corrects) du "QCM ISTQB Foundation en français" nommé "cpc.json".
 
 
