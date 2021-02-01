@@ -3,7 +3,7 @@
 
 Objet du test : Résultat du Quiz ISTQB niveau Foundation en français ("http://www.hightest.nc/ressources/test-istqb.php").
 
-Objectif du test : Créer un test automatisé permettant de contrôler que le mail "résultat" reçu de la part de "contact@hightest.nc" suite à la réalisation d'un test ISTQB Foundation (en français) sur le site de Hightest indique bien 100 % de bonnes réponses.
+Objectif : Créer un test automatisé permettant de contrôler que le mail "résultat" reçu de la part de "contact@hightest.nc" suite à la réalisation d'un test ISTQB Foundation (en français) sur le site de Hightest indique bien 100 % de bonnes réponses.
 
 ## Environnement du test
 
