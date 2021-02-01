@@ -19,7 +19,7 @@ Objectif : le test "Cent pout Cent" consiste à vérifier que le mail reçu, de 
 
 Scénario à réaliser :
 
-> - Etape 1 - Se rendre sur la page d'accueil https://hightest.nc/ doit être ouverte.  
+> - Etape 1 - Se rendre sur la page d'accueil https://hightest.nc/  
 > - Etape 2 - Cliquer sur "Toolbox"
 > - Etape 3 - Cliquer sur le lien vers le quiz ISTQB Fondation en français
 > - Etape 4 - Cliquer sur les bonnes réponses du test
