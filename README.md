@@ -9,6 +9,7 @@ Objectif du test : Créer un test automatisé permettant de contrôler que le ma
 
 - Outil utilisé : Selenium => Version 3.141.59 / Java => Version Java 15.0.2 / Framework de test TestNG => Version 6.14.3 
 - IDE utilisé : Intelli J IDEA CE
+- Device utilisé : MacBook Pro avec puce M1 (année 2020) et macOs Big Sur Version 11.1 
 - Navigateur cible : Google Chrome => Version Driver : ChromeDriver 87.0.4280.88
 - Design pattern : Page Object Model
 
