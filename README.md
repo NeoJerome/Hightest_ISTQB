@@ -24,7 +24,7 @@ Objectif : le test "Cent pout Cent" consiste à vérifier que le mail reçu, de 
 > - Etape 6 - Entrer une adresse e-mail yopmail.com (ne pas cocher la case pour la newsletter)
 > - Etape 7 - Cliquer sur "OK"
 > - Etape 8 - Ouvrir la page "www.yopmail.com"
-> - Etape 9 - Vérifier que le mail reçu de la part de "contact@hightest.nc" indique bien la phrase attendue : "Vous avez bien répondu à 20 question(s) sur 20, soit >100 % de réussite. Félicitations, vous avez obtenu le score maximal !".
+> - Etape 9 - Vérifier que le mail reçu de la part de "contact@hightest.nc" indique bien la phrase attendue : "Vous avez bien répondu à 20 question(s) sur 20, soit 100 % de réussite. Félicitations, vous avez obtenu le score maximal !".
 
 ## Structure du projet
 
