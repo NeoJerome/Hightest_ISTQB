@@ -17,6 +17,8 @@ Objectif du test : Créer un test automatisé permettant de contrôler que le ma
 
 Objectif : le test "Cent pout Cent" consiste à vérifier que le mail reçu, de la part de "contact@hightest.nc", contient bien la phrase : "Vous avez bien répondu à 20 question(s) sur 20, soit 100 % de réussite. Félicitations, vous avez obtenu le score maximal !". Cette phrase est écrite uniquement en cas de résussite à 100 %.
 
+Scénario à réaliser :
+
 > - Etape 1 - Se rendre sur la page d'accueil https://hightest.nc/ doit être ouverte.  
 > - Etape 2 - Cliquer sur "Toolbox"
 > - Etape 3 - Cliquer sur le lien vers le quiz ISTQB Fondation en français
